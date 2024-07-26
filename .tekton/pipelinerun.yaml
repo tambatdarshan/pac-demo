@@ -5,7 +5,7 @@ metadata:
   name: pac-demo
   annotations:
     # The event we are targeting as seen from the webhook payload
-    # test pac
+    # test pac1
     # this can be an array too, i.e: [pull_request, push]
     pipelinesascode.tekton.dev/on-event: "[pull_request, push]"
 
